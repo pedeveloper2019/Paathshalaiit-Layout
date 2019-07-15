@@ -1,7 +1,36 @@
+/* Colors */
+.bg-prussian{
+    background: #003153;
+}
+.bg-purple{
+    background: #93385FFF;
+}
+.bg-lilac{
+    background: #9F6B99FF;
+}
+.bg-petunia{
+    background: #4F3466FF;
+}
+.bg-gleam{
+    background: #301728FF;
+}
+.bg-deepblue
+{
+    background: #2460A7FF;
+}
+.bg-coffee{
+    background: #D9B48FFF;
+}
+.bg-wine{
+    background: #643E46FF;
+}
 /* For All Pages */
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 *{
-    font-family: "poppins";
+    /* font-family: "poppins"; */
+}
+h1,h2,h3,h4,h5,h6{
+    text-transform: uppercase;
 }
 
 /* Banner image style */
@@ -15,4 +44,49 @@
 }
 .listParent li i{
     margin-right: .5vw;
+}
+/* hr Lines */
+.hrline
+{
+    padding: 0;margin: 0;
+    border: 1px solid cyan;
+}
+/* features cards  */
+.card{
+    /* border: 1px solid red; */
+    /* position: absolute; */
+    /* float: left; */
+    width: 14vw;
+    height:40vh;
+    display: inline-block;
+    margin-left:1vw;/*margin-bottom: 0px !important;This is overriden by bootstrap so important is added.*/
+    text-align: left;
+    overflow: hidden;
+    font-size: 14px;
+}
+.card-img-top{
+    height: 22vh;
+}
+.card-text{
+    font-weight: 600;
+}
+.arrow1,.arrow2{
+    border: 20px solid white;
+    height: 10px;width:10px;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    position: relative;
+    left:9vw;
+    top:-6vh;
+    display:none;
+}
+.infobox1,.infobox2{
+    width: 75vw;margin-left: 3.5vw;
+    text-align: left;margin-top:-6vh;
+    border-radius: 1vw;margin-bottom: 2vh;
+    display: none;
+}
+.card-infobox{
+    display: none;
 }
