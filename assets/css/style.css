@@ -1,0 +1,18 @@
+/* For All Pages */
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+*{
+    font-family: "poppins";
+}
+
+/* Banner image style */
+.banner-images{
+    height:100vh;
+    object-fit:cover;
+}
+/* Tablist ul li  */
+.listParent li{
+    margin-top: 2vh;
+}
+.listParent li i{
+    margin-right: .5vw;
+}
