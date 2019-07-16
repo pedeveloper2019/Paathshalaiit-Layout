@@ -26,8 +26,10 @@
 }
 /* For All Pages */
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-*{
-    /* font-family: "poppins"; */
+body{
+    font-family: "Poppins";
+    font-size: 13px;
+    line-height: 23px;
 }
 h1,h2,h3,h4,h5,h6{
     text-transform: uppercase;
@@ -67,9 +69,6 @@ h1,h2,h3,h4,h5,h6{
 .card-img-top{
     height: 22vh;
 }
-.card-text{
-    font-weight: 600;
-}
 .arrow1,.arrow2{
     border: 20px solid white;
     height: 10px;width:10px;
@@ -90,3 +89,25 @@ h1,h2,h3,h4,h5,h6{
 .card-infobox{
     display: none;
 }
+/* Footer */
+.footer-menu{
+    text-align: justify;
+    color: white;
+    width: 30%;display: inline-block;margin-left: 2vw;
+    font-size: 13px;
+    font-weight: 450;
+}
+.footer-menu li::before {
+	list-style-type: none;
+    content: "\f138";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-right: 1vw;
+}
+.footer-menu li{
+    padding: .5vw;
+}
+.contactlist li{
+    margin: 2vh;
+}
+
