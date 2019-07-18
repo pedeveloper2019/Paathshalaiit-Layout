@@ -23,6 +23,25 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
+    <!-- Header Navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background: transparent;">
+        <a class="navbar-brand">
+            <img src="assets/images/logo/ps.png">
+        </a>
+        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="my-nav" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Item 1 <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Item 2</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <!-- Banner/Carousel -->
     <div class="container-fluid bg-dark" style="padding: 0%">
             <div id="my-carousel" class="carousel slide" data-ride="carousel" data-pause="false" style="height: 100vh;">
@@ -55,18 +74,18 @@
     <!-- Banner/Carousel End -->
     <!-- Intro -->
     <div style="background: black;">
-            <div class="container p-5">
+            <div class="container p-4 pb-0">
                     <h3 class="text-info">Paathshala Education</h3>
                     <p class="text-white">We are a premiere education institute and one of the fastest growing education institutes in India. Founded and managed by IITians, Doctors and Educationists, we are focused on providing quality education with state-of-the-art infrastructure, like nowhere in India and guidance for the students of XI and XII standard science, aspiring to crack competitive entrance exams like the IIT JEE, BITSAT, NEET, JIPMER, AIIMS etc and Boards
                     </p>
                     <div class="btn btn-dark border border-light">View More</div>
+                    <hr class="hrline">
             </div>
     </div>
     <!-- Intro End -->
-    <hr class="hrline">
     <!-- Workshop -->
     <div style="/*background: linear-gradient(to left, #185a9d, #43cea2);*/background: black;">
-        <div class="container p-5">
+        <div class="container" id="workshoptabs">
             <h3 class="text-info">Success Seminars and Workshops</h3><br>
             <nav>
                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
@@ -235,11 +254,11 @@
                                 </li>
                             </ul>
                 </div>
-            </div>  
+            </div>
+            <hr class="hrline">  
         </div>
     </div>
     <!-- Workshop End -->
-    <hr class="hrline">
     <!-- Features of Pathshala Cards -->
     <div style="background-color: black;">
         <div class="container" style="background:black;overflow:hidden;text-align: center;">
@@ -370,10 +389,10 @@
                     <p></p>
               </div>
               <!-- Info-Box For bottom 5 Cards End -->
+              <hr class="hrline">
         </div>
     </div>
     <!-- Features of Pathshala Cards End -->
-    <hr class="hrline">
     <!-- Footer -->
     <footer style="background: black;">
         <div class="container">
@@ -464,7 +483,10 @@
 
 <script type="text/javascript">
 $(function () {
-    $(".card").click(function (e) {
+    // alert($(window).width())
+    if(!($(window).width() < 990))
+    {
+        $(".card").click(function (e) {
         data_for = $(this).attr("data-for");
         data = $(this).find(".card-infobox").html();
         if(data_for == 1)
@@ -499,6 +521,7 @@ $(function () {
             })
         }
     });
+    }
 });
 </script>
 </html>

@@ -1,0 +1,50 @@
+@media screen and (max-width:990px)
+{
+    .card
+    {
+        width: 150vw;
+        height: 68vh;
+        /* border:1px solid red; */
+    }
+    .infobox1, .infobox2, .arrow1, .arrow2{
+        display: none;
+    }
+    .card-img-top{
+        height:50vh !important;
+    }
+}
+@media screen and (max-width: 770px) {
+    .footer-menu{
+        width: 100% !important;
+        font-size: 2vh;
+        /* border:1px solid red; */
+        padding: 2vh;
+    }
+    #about{
+        display: block;
+        width: 100% !important;
+        float: none;
+    }
+    #contact{
+        display: block;
+        width: 100% !important;
+        float: none;    
+    }
+    
+}
+@media screen and (min-width: 376px) and (max-width: 515px) {
+    
+    .nav-tabs .nav-item{
+        /* display: inline-block; */
+        /* border: 1px solid red; */
+        font-size: 2vw;
+    }
+}
+@media screen and (max-width: 375px) {
+    
+    .nav-tabs .nav-item{
+        /* display: inline-block; */
+        /* border: 1px solid red; */
+        font-size: 1.7vw;
+    }
+}
