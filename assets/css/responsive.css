@@ -12,6 +12,9 @@
     .card-img-top{
         height:50vh !important;
     }
+    .navbar ul li{
+        margin-left: 1.5vw;
+    }
 }
 @media screen and (max-width: 770px) {
     .footer-menu{
