@@ -2,21 +2,53 @@
 {
     .card
     {
-        width: 150vw;
-        height: 68vh;
+        width: 30vw;
+        display:block;
+        margin: 0 auto;
+        height: 50vh;
         /* border:1px solid red; */
     }
     .infobox1, .infobox2, .arrow1, .arrow2{
         display: none;
     }
+    .responsive-arrow{
+        border: 4vh solid white;width: 1vw;border-top-color:transparent;
+        border-left-color: transparent;border-right-color: transparent;
+        position: absolute;left: 47.5vw;margin-top: -6vh;
+    }
+    .responsive-infobox{
+        background: white;
+        width: 60vw;
+        border-radius: 1vh;
+        /* display:block; */
+        margin: 0 auto;
+        margin-top: 3.8vh;
+        /* height: 50vh; */
+        /* border:1px solid red; */
+    }
     .card-img-top{
-        height:50vh !important;
+        height:30vh !important;
     }
     .navbar ul li{
         margin-left: 1.5vw;
     }
 }
 @media screen and (max-width: 770px) {
+    .top-nav{
+        font-size: 1.7vw;
+    }
+    .card
+    {
+        width: 60vw;
+        display:block;
+        margin: 0 auto;
+        height: 50vh;
+        border:1px solid red;
+    }
+    .responsive-infobox{
+        font-size: 3vw;
+        width: 80vw;
+    }
     .footer-menu{
         width: 100% !important;
         font-size: 2vh;
@@ -35,6 +67,7 @@
     }
     
 }
+
 @media screen and (min-width: 376px) and (max-width: 515px) {
     
     .nav-tabs .nav-item{

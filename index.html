@@ -17,6 +17,8 @@
 
     <!-- Animate.css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/okayNav/2.0.4/css/okayNav.min.css" integrity="sha256-5GnvgZlC9xw/Bnu47NAjIrgSrep52y8J6T4WbzcLN4E=" crossorigin="anonymous" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/okayNav/2.0.4/css/common.min.css" integrity="sha256-KST4VAxvJ13QCh7zRmwtXTTrseX4MKSczAK0XH//WIc=" crossorigin="anonymous" /> -->
 
     <!-- Custom style -->
     <link rel="stylesheet" href="assets/css/style.css">
@@ -24,15 +26,48 @@
 </head>
 <body>
     <!-- Header Navbar  -->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top justify-content-between">
-        <a class="navbar-brand" >
-            <img src="assets/images/logo/whitelLogo-Paathshala.png" style="height: 6vh">
+    <div class=" top-nav bg-dark text-light" style="text-align: center">
+        <ul class="list-inline">
+            <li class="list-inline-item top-contact">Call us: 9867998388</li>
+            <li class="list-inline-item top-links">
+                <a href="#"> ADMISSION ENQUIRY | </a>
+            </li>
+            <li class="list-inline-item top-links">
+                <a href="#">RESOURCES  | </a>
+            </li>
+            <li class="list-inline-item top-links">
+                <a href="#">CAREERS  | </a>
+            </li>
+            <li class="list-inline-item top-links">
+                <a href="#"> SPARK EXCELLENCE </a>
+            </li>
+            <li class="list-inline-item top-icons" >
+                <a title="Paathshala Facebook"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="list-inline-item top-icons">
+                <a title="Paathshala Twitter"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="list-inline-item top-icons">
+                <a title="Paathshala Pinterest"><i class="fa fa-pinterest-p"></i></a>
+            </li>
+            <li class="list-inline-item top-icons">
+                <a title="Paathshala LinkedIn"><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li class="list-inline-item top-icons">
+                <a title="Paathshala Instagram"><i class="fa fa-instagram"></i></a>
+            </li>
+            <li class="list-inline-item top-icons">
+                <a title="Paathshala Youtube"><i class="fa fa-youtube-play"></i></a>
+            </li>
+        </ul>
+
+    </div>
+    <header id="header">
+        <a class="site-logo" href="#">
+            <img src="assets/images/logo/ps.png" alt="" srcset="" style="height: 6vh;">
         </a>
-        <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="my-nav" class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto bg-dark">
+        <nav role="navigation" id="nav-main" class="okayNav">
+            <ul>  
                 <li class="nav-item active">
                     <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                 </li>
@@ -44,29 +79,29 @@
                 </li>
                 <li class="nav-item dropdown ">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Exams
+                            Exams
                         </a>
-                        <div class="dropdown-menu animated fadeIn" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="#">JEE MAIN & ADVANCED</a>
-                          <a class="dropdown-item" href="#">BITSAT, CET</a>
-                          <!-- <div class="dropdown-divider"></div> -->
-                          <a class="dropdown-item" href="#">NEET, AIIMS, JIPMER</a>
-                          <a class="dropdown-item" href="#">OLYMPIADS</a>
-                          <a class="dropdown-item" href="#">KVPY,IISER</a>
-                          <a class="dropdown-item" href="#">FOUNDATION</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">JEE MAIN & ADVANCED</a>
+                            <a class="dropdown-item" href="#">BITSAT, CET</a>
+                            <!-- <div class="dropdown-divider"></div> -->
+                            <a class="dropdown-item" href="#">NEET, AIIMS, JIPMER</a>
+                            <a class="dropdown-item" href="#">OLYMPIADS</a>
+                            <a class="dropdown-item" href="#">KVPY,IISER</a>
+                            <a class="dropdown-item" href="#">FOUNDATION</a>
                         </div>
                 </li>
                 <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          Info
+                            Info
                         </a>
                         <div class="dropdown-menu animated fadeIn" aria-labelledby="navbarDropdown">
-                          <a class="dropdown-item" href="#">EVERYTHING ABOUT IIT,s</a>
-                          <a class="dropdown-item" href="#">TOP MEDICAL COLLEGES</a>
-                          <!-- <div class="dropdown-divider"></div> -->
-                          <a class="dropdown-item" href="#">NEET, AIIMS, JIPMER</a>
-                          <a class="dropdown-item" href="#">WHAT ARE NIT's, IIT's</a>
-                          <a class="dropdown-item" href="#">BITS PILANI</a>
+                            <a class="dropdown-item" href="#">EVERYTHING ABOUT IIT,s</a>
+                            <a class="dropdown-item" href="#">TOP MEDICAL COLLEGES</a>
+                            <!-- <div class="dropdown-divider"></div> -->
+                            <a class="dropdown-item" href="#">NEET, AIIMS, JIPMER</a>
+                            <a class="dropdown-item" href="#">WHAT ARE NIT's, IIT's</a>
+                            <a class="dropdown-item" href="#">BITS PILANI</a>
                         </div>
                 </li>
                 <li class="nav-item">
@@ -79,8 +114,8 @@
                         <a class="nav-link" href="#">Contact Us</a>
                 </li>
             </ul>
-        </div>
-    </nav>
+        </nav>
+    </header>
     <!-- Header End -->
     <!-- Banner/Carousel -->
     <div class="container-fluid bg-dark" style="padding: 0%" id="slider">
@@ -303,7 +338,7 @@
     <div style="background-color: black;">
         <div class="container" style="background:black;overflow:hidden;text-align: center;">
             <h3 class="text-light m-4">Why Should You Choose Paathshala Education ?</h3>
-            <div class="card text-white bg-wine mb-3" style="max-width: 18rem;" pos-to="9vw" data-for="1">
+            <div class="card text-white bg-wine mb-3" pos-to="9vw" data-for="1">
                 <!-- <div class="card-header">One To One Personalised, Across The Table Coaching</div> -->
                 <img class="card-img-top" src="assets/images/Effective-vocabulary-strategies.jpg" alt="" style=" width:100%;">
                 <div class="card-body">  
@@ -313,8 +348,12 @@
                     Paathshala is unique in its approach of one to one personalized coaching at the institute wherein there are no student batches but the focus is upon across the table one on one tutoring. The student – teacher ratio is very small due to one to one coaching. Student gets personalized attention and can ask doubts or queries without any hesitation. The professor can teach the student based on learning requirement, understanding capability, learning speed, and motivation. With the one-on-one model, professors are committed to listening to the student and actively responding. Teachers can get to know the student fully and keep track of their progress, gauging their success and struggles. The one to one model is the most successful mode of tutoring a student and known to produce the best possible result. Both parents and students are happy in this form of tutoring. The student would be able to achieve maximum potential due to the personalized coaching. Our professors are dedicated to empowering each one of their students to achieve their educational goals and be prepared for a remarkable future. One-on-one interactions assist students in becoming the best versions of themselves and discovering a joy for lifelong learning.
                   </p>
                 </div>
-              </div>
-              <div class="card text-white bg-secondary mb-3" style="max-width: 18rem;" pos-to="24vw" data-for="1">
+            </div>
+            <!-- responsive view Infobox -->
+            <div class="responsive-arrow animated fadeIn"></div>
+            <div class="responsive-infobox mb-3 p-2 animated fadeIn"></div>
+            <!-- responsive view Infobox end-->
+            <div class="card text-white bg-secondary mb-3" pos-to="24vw" data-for="1">
                 <img class="card-img-top" src="assets/images/accordian-1.jpg" alt="" style="width: 100%;">
                 <!-- <div class="card-header">Dedicated,Well Qualified And Well Trained Professors</div> -->
                 <div class="card-body">
@@ -324,8 +363,12 @@
                         Paathshala faculties are handpicked by a very esteemed group of PhDs, Educationists and IITians, may of whom have been Ex Faculties themselves at many Nationally and Globally renowned educational institutes. The professors are well qualified, smart, jovial, charismatic individuals who undergo a rigorous teacher training and selection procedure instilling in them Paathshala values like dedication,approachability, approachability,clarity of knowledge and time management efficiency. They are well-known to simplify the topic and concepts for the students who develop interest and start performing better thenceforth. Our Professors derive great pride from their student's ranks and results and the believe in the philosophy that success in competitive exams is not only the student’s but the teachers as well to cherish.
                   </p>
                 </div>
-              </div>
-              <div class="card text-white bg-prussian mb-3" style="max-width: 18rem;" pos-to="39.5vw" data-for="1">
+            </div>
+            <!-- responsive view Infobox -->
+            <div class="responsive-arrow animated fadeIn"></div>
+            <div class="responsive-infobox mb-3 p-2 animated fadeIn"></div>
+            <!-- responsive view Infobox end-->
+            <div class="card text-white bg-prussian mb-3" pos-to="39.5vw" data-for="1">
                 <img class="card-img-top" src="assets/images/technology.png" alt="" style="width: 100%;">
                 <!-- <div class="card-header">Technology Enhanced Learning</div> -->
                 <div class="card-body">
@@ -335,8 +378,12 @@
                         PAATHSHALA classrooms are well equipped with technology enhanced learning and teaching infrastructure, including Televisions, Digital Writing Pads, Models, small experiments, animated videos. Wherever we feel that the animated videos may help students understand the concepts better and swifter, we use this for the enhanced interest levels of the students to a satisfactory and interest generating effect. Curiosity of the students is also increased due to the use of such technology enhanced learning methodologies.
                   </p>
                 </div>
-              </div>
-              <div class="card text-white bg-deepblue mb-3" style="max-width: 18rem;" pos-to="55vw" data-for="1">
+            </div>
+            <!-- responsive view Infobox -->
+            <div class="responsive-arrow animated fadeIn"></div>
+            <div class="responsive-infobox mb-3 p-2 animated fadeIn"></div>
+            <!-- responsive view Infobox end-->
+            <div class="card text-white bg-deepblue mb-3"  pos-to="55vw" data-for="1">
                 <img class="card-img-top" src="assets/images/mobile.png" alt="" style="width: 100%;">
                 <!-- <div class="card-header">Mobile Apps And Communication Portal</div> -->
                 <div class="card-body">
@@ -346,8 +393,12 @@
                         PAATHSHALA believes in strong dedication and clarity when it comes to communicating with parents about their ward's progress. We believe in honest, timely, punctual communications and clarification of doubts and queries. And our well acclaimed customer support and academics, co-curricular and career guidance has earned a lot of kudos and accolades over time from numerous parents and teachers alike. We use technology enhanced communication systems that we have customized for the learning of our students as well as for the day to day academic related communication with the parents. We use these to the benefit of all and easy for all.
                   </p>
                 </div>
-              </div>
-              <div class="card text-white bg-dark mb-3" style="max-width: 18rem;" pos-to="70vw" data-for="1">
+            </div>
+            <!-- responsive view Infobox -->
+            <div class="responsive-arrow animated fadeIn"></div>
+            <div class="responsive-infobox mb-3 p-2 animated fadeIn"></div>
+            <!-- responsive view Infobox end-->
+            <div class="card text-white bg-dark mb-3"  pos-to="70vw" data-for="1">
                     <img class="card-img-top" src="assets/images/small-exp.jpg" alt="" style="width: 100%;">
                 <!-- <div class="card-header">Teaching Using Models And Small Experiments In Class</div> -->
                 <div class="card-body">
@@ -357,17 +408,19 @@
                         In Paathshala classrooms, the use of teaching models and demonstrating small experiments in class, especially across a table and while learning topics like solid state chemistry and reaction mechanisms in organic chemistry, optical isomerism etc makes the student understand the concepts involved much better and faster and this leads the student having more knowledge and deeper understanding about such complicated topics involving spatial reasoning.
                   </p>
                 </div>
-              </div>
-              <!-- Info-Box For top 5 Cards -->
-              <div class="animated fadeIn arrow1">
-              </div>
-              <div class="animated fadeIn infobox1 bg-light p-3">
-                  <p>
-                  </p>
-              </div>
-              <!-- Info-Box For top 5 Cards End -->
+            </div>
+            <!-- responsive view Infobox -->
+            <div class="responsive-arrow animated fadeIn"></div>
+            <div class="responsive-infobox mb-3 p-2 animated fadeIn"></div>
+            <!-- responsive view Infobox end-->
+            <!-- Info-Box For top 5 Cards -->
+            <div class="animated fadeIn arrow1"></div>
+            <div class="animated fadeIn infobox1 bg-light p-3">
+                <p></p>
+            </div>
+            <!-- Info-Box For top 5 Cards End -->
 
-              <div class="card text-white bg-purple mb-3" style="max-width: 18rem;" pos-to="9vw" data-for="2">
+            <div class="card text-white bg-purple mb-3" pos-to="9vw" data-for="2">
                 <img class="card-img-top" src="assets/images/lib-bg.jpg" alt="" style="width: 100%;">
                 <!-- <div class="card-header">12 X 7, Air Conditioned Library Facility With Comfortable Seating</div> -->
                 <div class="card-body">
@@ -377,8 +430,12 @@
                         To ensure continued learning and concentration, we have designed our library with comfortable benches,study tables,12*7 air-conditioning facility because the environment in which a student is studying impacts the desire to study and concentration levels. The students can also consult the faculty available in the library premises for doubts clarification when the faculty are free from lectures. The library is open from 9 AM to 9 PM from Sunday to Saturday. 
                   </p>
                 </div>
-              </div>
-              <div class="card bg-lilac mb-3 text-light" style="max-width: 18rem;" pos-to="24.5vw" data-for="2">
+            </div>
+            <!-- responsive view Infobox -->
+            <div class="responsive-arrow animated fadeIn"></div>
+            <div class="responsive-infobox mb-3 p-2 animated fadeIn"></div>
+            <!-- responsive view Infobox end-->
+            <div class="card bg-lilac mb-3 text-light" pos-to="24.5vw" data-for="2">
                 <img class="card-img-top" src="assets/images/regular-assesment.jpg" alt="" style="width: 100%;">
                 <!-- <div class="card-header">Regular Assessments, Using Topic Wise Tests, Full Syllabus Test & Part Syllabus Test</div> -->
                 <div class="card-body">
@@ -388,8 +445,12 @@
                         The students will be regularly assessed through the Topic Wise Tests(TWTs) which would be conducted as soon as a given topic is completed in the class, the marks of which would be communicated to the parents. Once the syllabus is completed, the students will be made to give full syllabus end-of-the course test series which would be of the same pattern as the competitive exams they are preparing for. Intermittently we also provide students with part syllabus tests. Because it is only practice that makes a student perfect.
                   </p>
                 </div>
-              </div>
-              <div class="card text-white bg-petunia mb-3" style="max-width: 18rem;" pos-to="39.5vw" data-for="2">
+            </div>
+            <!-- responsive view Infobox -->
+            <div class="responsive-arrow animated fadeIn"></div>
+            <div class="responsive-infobox mb-3 p-2 animated fadeIn"></div>
+            <!-- responsive view Infobox end-->
+            <div class="card text-white bg-petunia mb-3"  pos-to="39.5vw" data-for="2">
                 <img class="card-img-top" src="assets/images/special-preparation.jpg" alt="" style="width: 100%;">
                 <!-- <div class="card-header">Special Preparation For Board Exams</div> -->
                 <div class="card-body">
@@ -399,8 +460,12 @@
                         Paathshala conducts Special Preparation for Board Exams of the students towards the second half of the twelfth standard.This special coaching for the board examinations which includes making the students practice the board papers of previous years, evaluation and correction of the board papers, providing the appropriate feedback and suggestions, helps the students feel well prepared and confident. Expert faculties for board exams give tips as to how to write the board papers,how to make them look more presentable with legible handwriting, labelled diagrams and point wise answers in order to score well. This has helped numerous students of Paathshala Education to excel in board exams.
                     </p>
                 </div>
-              </div>
-              <div class="card bg-gleam mb-3 text-light" style="max-width: 18rem;" pos-to="55vw" data-for="2">
+            </div>
+            <!-- responsive view Infobox -->
+            <div class="responsive-arrow animated fadeIn"></div>
+            <div class="responsive-infobox mb-3 p-2 animated fadeIn"></div>
+            <!-- responsive view Infobox end-->
+            <div class="card bg-gleam mb-3 text-light"  pos-to="55vw" data-for="2">
                 <img class="card-img-top" src="assets/images/welfare.jpg" alt="">
                 <!-- <div class="card-header">Persistent Student Welfare Activities, Guidance, Motivation And Support</div> -->
                 <div class="card-body">
@@ -410,8 +475,12 @@
                         Student Welfare Activities, conducted by Paathshala Education act as a Continuous Motivation and Support system for students.There is a dedicated team of professionals called the Student Welfare Team, which is driven to provide constant support, guidance and counselling to the students on a regular basis. The students are supposed to report to the Student Welfare Team about what they have studied on a given day as a part of self study as well as classwork, and if they have any impending doubts. The progress of the student will be communicated to the parents on a weekly basis as a weekly study report with appropriate feedback and improvement suggestions. A short surprize viva may also conducted on the topics which have been covered by the student as a part of self study. This helps the student stay on the foot and re-enforces the concept of regular guided studies.
                     </p>
                 </div>
-              </div>
-              <div class="card text-white bg-coffee mb-3" style="max-width: 18rem;" pos-to="70vw" data-for="2">
+            </div>
+            <!-- responsive view Infobox -->
+            <div class="responsive-arrow animated fadeIn"></div>
+            <div class="responsive-infobox mb-3 p-2 animated fadeIn"></div>
+            <!-- responsive view Infobox end-->
+            <div class="card text-white bg-coffee mb-3"  pos-to="70vw" data-for="2">
                 <img class="card-img-top" src="assets/images/image_2019-06-18_14-42-15.png" alt="" style="width: 100%;">
                 <!-- <div class="card-header">Post Exam Counselling And Career Guidance</div> -->
                 <div class="card-body">
@@ -421,15 +490,18 @@
                         Post Exam Counselling and feedback is provided to students after they are done with their entrance exams and the results come out. Many a student is in a dilemma as to what institute or branch to choose amongst the several available to them. We explain to them in detail about all branches and try to establish medium term and long term career goals. Our counselors comprise of our faculty and well established industry professionals Thus they are more well informed about what exactly to choose and how to proceed in life.
                     </p>
                 </div>
-              </div>
-              <!-- Info-Box For bottom 5 Cards -->
-              <div class="animated fadeIn arrow2">
-              </div>
-              <div class="infobox2 bg-light p-3 animated fadeIn">
-                    <p></p>
-              </div>
-              <!-- Info-Box For bottom 5 Cards End -->
-              <hr class="hrline">
+            </div>
+            <!-- responsive view Infobox -->
+            <div class="responsive-arrow animated fadeIn"></div>
+            <div class="responsive-infobox mb-3 p-2 animated fadeIn"></div>
+            <!-- responsive view Infobox end-->
+            <!-- Info-Box For bottom 5 Cards -->
+            <div class="animated fadeIn arrow2"></div>
+            <div class="infobox2 bg-light p-3 animated fadeIn">
+                <p></p>
+            </div>
+            <!-- Info-Box For bottom 5 Cards End -->
+            <hr class="hrline">
         </div>
     </div>
     <!-- Features of Pathshala Cards End -->
@@ -518,7 +590,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/okayNav/2.0.4/js/jquery.okayNav-min.js" integrity="sha256-Ts0z4Xdq9mpEsvzMkQS/cCgRxPPD4GfkwR4z18HHf+g=" crossorigin="anonymous"></script>
+<script>
+    var navigation = $('#nav-main').okayNav();
+</script>
 <!-- Javascript for Cards information Box -->
 
 <script type="text/javascript">
@@ -527,10 +602,14 @@ $(function () {
     
     $(window).scroll(function () { 
         if ($(window).scrollTop() >= header) {
-            $('.navbar').addClass('bg-dark');
+            $('#header').addClass('bg-light');
+            $("#header").css("top","0")
+            $(".site-logo img").attr("src","assets/images/logo/ps.png");
         }
         else {
-            $('.navbar').removeClass('bg-dark');
+            $('#header').removeClass('bg-light');
+            $("#header").css("top","")
+            $(".site-logo img").attr("src","assets/images/logo/whitelLogo-Paathshala.png");
         }
     });
     // alert($(window).width())
@@ -570,7 +649,20 @@ $(function () {
                 left: position,
             })
         }
-    });
+        });
+    }
+    else
+    {
+        $(".card").click(function (e) 
+        { 
+            // alert()
+            data = $(this).find(".card-infobox").html();
+            // alert(data);
+            $(".responsive-arrow").css("display","none")
+            $(".responsive-infobox").css("display","none")
+            $(this).next(".responsive-arrow").next(".responsive-infobox").append(data).css("display","block")
+            $(this).next(".responsive-arrow").css("display","none")
+        });
     }
 });
 </script>
