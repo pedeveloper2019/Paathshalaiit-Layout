@@ -26,21 +26,16 @@
 </head>
 <body>
     <!-- Header Navbar  -->
-    <div class=" top-nav bg-dark text-light" style="text-align: center">
+    <div class="slideDiv bg-light p-3">
+        <ul class="list-unstyled text-center">
+            <li><a href="#"> ADMISSION ENQUIRY</a></li>
+            <li><a href="#">RESOURCES</a></li>
+            <li><a href="#">CAREERS</a></li>
+            <li><a href="#"> SPARK EXCELLENCE </a></li>
+        </ul>
+    </div>
+    <div class="top-nav text-light" style="text-align: center;z-index:10000;position:relative;background: #007bff;">
         <ul class="list-inline">
-            <li class="list-inline-item top-contact">Call us: 9867998388</li>
-            <li class="list-inline-item top-links">
-                <a href="#"> ADMISSION ENQUIRY | </a>
-            </li>
-            <li class="list-inline-item top-links">
-                <a href="#">RESOURCES  | </a>
-            </li>
-            <li class="list-inline-item top-links">
-                <a href="#">CAREERS  | </a>
-            </li>
-            <li class="list-inline-item top-links">
-                <a href="#"> SPARK EXCELLENCE </a>
-            </li>
             <li class="list-inline-item top-icons" >
                 <a title="Paathshala Facebook"><i class="fa fa-facebook"></i></a>
             </li>
@@ -48,7 +43,7 @@
                 <a title="Paathshala Twitter"><i class="fa fa-twitter"></i></a>
             </li>
             <li class="list-inline-item top-icons">
-                <a title="Paathshala Pinterest"><i class="fa fa-pinterest-p"></i></a>
+                    <a title="Paathshala Pinterest"><i class="fa fa-pinterest-p"></i></a>
             </li>
             <li class="list-inline-item top-icons">
                 <a title="Paathshala LinkedIn"><i class="fa fa-linkedin"></i></a>
@@ -59,66 +54,121 @@
             <li class="list-inline-item top-icons">
                 <a title="Paathshala Youtube"><i class="fa fa-youtube-play"></i></a>
             </li>
+            <li class="list-inline-item top-contact">Call us: 9867998388</li>
+            <li class="list-inline-item top-links">
+                <a href="#"> ADMISSION ENQUIRY</a>
+            </li>
+            <li class="list-inline-item top-links">
+                <a href="#"> RESOURCES | </a>
+            </li>
+            <li class="list-inline-item top-links">
+                <a href="#"> &nbsp;CAREERS | </a>
+            </li>
+            <li class="list-inline-item top-links"><a href="#"> SPARK EXCELLENCE | </a></li>
         </ul>
-
+        <div id="top-toggle"><i class="fa fa-bars"></i></div>
     </div>
-    <header id="header">
-        <a class="site-logo" href="#">
-            <img src="assets/images/logo/ps.png" alt="" srcset="" style="height: 6vh;">
-        </a>
-        <nav role="navigation" id="nav-main" class="okayNav">
-            <ul>  
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                        <a class="nav-link" href="#">About Us</a>
-                </li>
-                <li class="nav-item">
-                        <a class="nav-link" href="#">Why Paathshala</a>
-                </li>
-                <li class="nav-item dropdown ">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Exams
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">JEE MAIN & ADVANCED</a>
-                            <a class="dropdown-item" href="#">BITSAT, CET</a>
-                            <!-- <div class="dropdown-divider"></div> -->
-                            <a class="dropdown-item" href="#">NEET, AIIMS, JIPMER</a>
-                            <a class="dropdown-item" href="#">OLYMPIADS</a>
-                            <a class="dropdown-item" href="#">KVPY,IISER</a>
-                            <a class="dropdown-item" href="#">FOUNDATION</a>
-                        </div>
-                </li>
-                <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Info
-                        </a>
-                        <div class="dropdown-menu animated fadeIn" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">EVERYTHING ABOUT IIT,s</a>
-                            <a class="dropdown-item" href="#">TOP MEDICAL COLLEGES</a>
-                            <!-- <div class="dropdown-divider"></div> -->
-                            <a class="dropdown-item" href="#">NEET, AIIMS, JIPMER</a>
-                            <a class="dropdown-item" href="#">WHAT ARE NIT's, IIT's</a>
-                            <a class="dropdown-item" href="#">BITS PILANI</a>
-                        </div>
-                </li>
-                <li class="nav-item">
+    <div class="navCollapse bg-light">
+        <ul class="list-unstyled text-center pt-3">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Why Paathshala</a></li>
+            <li class="dropdown ">
+                <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Exams
+                </a>
+                <div class="dropdown-menu animated fadeIn" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">JEE MAIN & ADVANCED</a>
+                    <a class="dropdown-item" href="#">BITSAT, CET</a>
+                    <!-- <div class="dropdown-divider"></div> -->
+                    <a class="dropdown-item" href="#">NEET, AIIMS, JIPMER</a>
+                    <a class="dropdown-item" href="#">OLYMPIADS</a>
+                    <a class="dropdown-item" href="#">KVPY,IISER</a>
+                    <a class="dropdown-item" href="#">FOUNDATION</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" href="#" id="Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Info
+                </a>
+                <div class="dropdown-menu animated fadeIn" aria-labelledby="Dropdown">
+                    <a class="dropdown-item" href="#">EVERYTHING ABOUT IIT,s</a>
+                    <a class="dropdown-item" href="#">TOP MEDICAL COLLEGES</a>
+                    <!-- <div class="dropdown-divider"></div> -->
+                    <a class="dropdown-item" href="#">NEET, AIIMS, JIPMER</a>
+                    <a class="dropdown-item" href="#">WHAT ARE NIT's, IIT's</a>
+                    <a class="dropdown-item" href="#">BITS PILANI</a>
+                </div>
+            </li>
+            <li>
+                <a href="#">Results</a>
+            </li>
+            <li>
+                <a href="#">Testimonials</a>
+            </li>
+            <li>
+                <a href="#">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+            <a class="navbar-brand" >
+                <img src="assets/images/logo/whitelLogo-Paathshala.png" style="height: 6vh">
+            </a>
+            <div id="my-nav" class=" collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="#">Why Paathshala</a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Exams
+                            </a>
+                            <div class="dropdown-menu animated fadeIn" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">JEE MAIN & ADVANCED</a>
+                              <a class="dropdown-item" href="#">BITSAT, CET</a>
+                              <!-- <div class="dropdown-divider"></div> -->
+                              <a class="dropdown-item" href="#">NEET, AIIMS, JIPMER</a>
+                              <a class="dropdown-item" href="#">OLYMPIADS</a>
+                              <a class="dropdown-item" href="#">KVPY,IISER</a>
+                              <a class="dropdown-item" href="#">FOUNDATION</a>
+                            </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Info
+                            </a>
+                            <div class="dropdown-menu animated fadeIn" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item" href="#">EVERYTHING ABOUT IIT,s</a>
+                              <a class="dropdown-item" href="#">TOP MEDICAL COLLEGES</a>
+                              <!-- <div class="dropdown-divider"></div> -->
+                              <a class="dropdown-item" href="#">NEET, AIIMS, JIPMER</a>
+                              <a class="dropdown-item" href="#">WHAT ARE NIT's, IIT's</a>
+                              <a class="dropdown-item" href="#">BITS PILANI</a>
+                            </div>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Results</a>
-                </li>
-                <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Testimonials</a>
-                </li>
-                <li class="nav-item">
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#">Contact Us</a>
-                </li>
-            </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="navCollapsebtn" class="nav-item togglebtn"><i class="fa fa-bars"></i></div>
         </nav>
-    </header>
     <!-- Header End -->
     <!-- Banner/Carousel -->
-    <div class="container-fluid bg-dark" style="padding: 0%" id="slider">
+    <div class="container-fluid" style="padding: 0%;background:#007bff;" id="slider">
             <div id="my-carousel" class="carousel slide" data-ride="carousel" data-pause="false" style="height: 100vh;">
                     <ol class="carousel-indicators">
                         <li class="active" data-target="#my-carousel" data-slide-to="0" aria-current="location"></li>
@@ -350,7 +400,6 @@
                 </div>
             </div>
             <!-- responsive view Infobox -->
-            <div class="responsive-arrow animated fadeIn"></div>
             <div class="responsive-infobox mb-3 p-2 animated fadeIn"></div>
             <!-- responsive view Infobox end-->
             <div class="card text-white bg-secondary mb-3" pos-to="24vw" data-for="1">
@@ -365,7 +414,6 @@
                 </div>
             </div>
             <!-- responsive view Infobox -->
-            <div class="responsive-arrow animated fadeIn"></div>
             <div class="responsive-infobox mb-3 p-2 animated fadeIn"></div>
             <!-- responsive view Infobox end-->
             <div class="card text-white bg-prussian mb-3" pos-to="39.5vw" data-for="1">
@@ -380,7 +428,6 @@
                 </div>
             </div>
             <!-- responsive view Infobox -->
-            <div class="responsive-arrow animated fadeIn"></div>
             <div class="responsive-infobox mb-3 p-2 animated fadeIn"></div>
             <!-- responsive view Infobox end-->
             <div class="card text-white bg-deepblue mb-3"  pos-to="55vw" data-for="1">
@@ -395,7 +442,6 @@
                 </div>
             </div>
             <!-- responsive view Infobox -->
-            <div class="responsive-arrow animated fadeIn"></div>
             <div class="responsive-infobox mb-3 p-2 animated fadeIn"></div>
             <!-- responsive view Infobox end-->
             <div class="card text-white bg-dark mb-3"  pos-to="70vw" data-for="1">
@@ -410,7 +456,6 @@
                 </div>
             </div>
             <!-- responsive view Infobox -->
-            <div class="responsive-arrow animated fadeIn"></div>
             <div class="responsive-infobox mb-3 p-2 animated fadeIn"></div>
             <!-- responsive view Infobox end-->
             <!-- Info-Box For top 5 Cards -->
@@ -432,7 +477,6 @@
                 </div>
             </div>
             <!-- responsive view Infobox -->
-            <div class="responsive-arrow animated fadeIn"></div>
             <div class="responsive-infobox mb-3 p-2 animated fadeIn"></div>
             <!-- responsive view Infobox end-->
             <div class="card bg-lilac mb-3 text-light" pos-to="24.5vw" data-for="2">
@@ -447,7 +491,6 @@
                 </div>
             </div>
             <!-- responsive view Infobox -->
-            <div class="responsive-arrow animated fadeIn"></div>
             <div class="responsive-infobox mb-3 p-2 animated fadeIn"></div>
             <!-- responsive view Infobox end-->
             <div class="card text-white bg-petunia mb-3"  pos-to="39.5vw" data-for="2">
@@ -462,7 +505,6 @@
                 </div>
             </div>
             <!-- responsive view Infobox -->
-            <div class="responsive-arrow animated fadeIn"></div>
             <div class="responsive-infobox mb-3 p-2 animated fadeIn"></div>
             <!-- responsive view Infobox end-->
             <div class="card bg-gleam mb-3 text-light"  pos-to="55vw" data-for="2">
@@ -477,7 +519,6 @@
                 </div>
             </div>
             <!-- responsive view Infobox -->
-            <div class="responsive-arrow animated fadeIn"></div>
             <div class="responsive-infobox mb-3 p-2 animated fadeIn"></div>
             <!-- responsive view Infobox end-->
             <div class="card text-white bg-coffee mb-3"  pos-to="70vw" data-for="2">
@@ -492,7 +533,6 @@
                 </div>
             </div>
             <!-- responsive view Infobox -->
-            <div class="responsive-arrow animated fadeIn"></div>
             <div class="responsive-infobox mb-3 p-2 animated fadeIn"></div>
             <!-- responsive view Infobox end-->
             <!-- Info-Box For bottom 5 Cards -->
@@ -505,6 +545,57 @@
         </div>
     </div>
     <!-- Features of Pathshala Cards End -->
+
+    <!-- Form For Enrollment -->
+    <div style="background: -webkit-linear-gradient(left, #3931af, #00c6ff);">
+        <div class="container" style="overflow: auto">
+            <div class="formLeft p-3 mt-3 mb-3" style="float:left;width:20%;height: 50vh;">
+                <img src="assets/images/logo/paathshala-favicon.png" alt="" style="width: 50%;margin-top:50%;">
+            </div>
+            <div class="formRight p-3 mt-3 mb-3" style="float:right;width: 80%;border-top-left-radius: 10% 50%;border-bottom-left-radius: 10% 50%;background: white;">
+                <h3 class="text-center">Let's Get Started</h3>
+                <div class="col-md-6" style="float: left;font-size: 18px;">
+                    <div class="form-group">
+                        <input type="text" class="fa form-control" placeholder="&#xf007   Your Name *" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" minlength="10" maxlength="10" name="txtPhone" class="fa form-control" placeholder="&#xf095   Your Phone *" value="" />
+                    </div>
+                    <div class="form-group">
+                        <select class="fa form-control">
+                            <option class="hidden"  selected disabled>Select Your Standard</option>
+                            <option>VIII</option>
+                            <option>IX</option>
+                            <option>X</option>
+                            <option>XI</option>
+                            <option>XII</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-6 float-right" style="font-size: 18px;" >
+                    <div class="form-group">
+                        <input id="email" type="email" class="fa form-control" placeholder="&#xf1a0   Your Email *" value="" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="fa form-control" placeholder="&#xf19c   School/College Name *" value="" />
+                    </div>
+                    <div class="form-group">
+                        <select class="fa form-control" multiple>
+                            <option class="hidden"  selected disabled>Exams Preparing For</option>
+                            <option>X Boards</option>
+                            <option>JEE [Mains]</option>
+                            <option>JEE [Advanced]</option>
+                            <option>NEET</option>
+                            <option>XII Boards</option>
+                            <option>Olympiads</option>
+                            <option>KVPY</option>
+                        </select>
+                    </div>
+                    <input type="submit" class="btn btn-info btnRegister"  value="Send Enquiry"/>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Footer -->
     <footer style="background: black;">
         <div class="container">
@@ -586,84 +677,9 @@
     </footer>
 </body>
 <!-- Boostrap Js -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/okayNav/2.0.4/js/jquery.okayNav-min.js" integrity="sha256-Ts0z4Xdq9mpEsvzMkQS/cCgRxPPD4GfkwR4z18HHf+g=" crossorigin="anonymous"></script>
-<script>
-    var navigation = $('#nav-main').okayNav();
-</script>
-<!-- Javascript for Cards information Box -->
-
-<script type="text/javascript">
-$(function () {
-    header = $("#slider").height()
-    
-    $(window).scroll(function () { 
-        if ($(window).scrollTop() >= header) {
-            $('#header').addClass('bg-light');
-            $("#header").css("top","0")
-            $(".site-logo img").attr("src","assets/images/logo/ps.png");
-        }
-        else {
-            $('#header').removeClass('bg-light');
-            $("#header").css("top","")
-            $(".site-logo img").attr("src","assets/images/logo/whitelLogo-Paathshala.png");
-        }
-    });
-    // alert($(window).width())
-    if(!($(window).width() < 990))
-    {
-        $(".card").click(function (e) {
-        data_for = $(this).attr("data-for");
-        data = $(this).find(".card-infobox").html();
-        if(data_for == 1)
-        {
-            position = $(this).attr("pos-to");
-            $(".arrow2").css({"display":"none"})
-            $(".infobox2").css({"display":"none"})
-            $(".arrow1").css({"display":"block"})
-            $(".infobox1").css({"display":"block"}).text(data)
-            // alert(data)
-            $(".arrow1").css({
-                left: position,
-            })
-            $(this).parent().mouseleave(function(){
-                $(".arrow2").css({"display":"none"})
-                $(".infobox2").css({"display":"none"})
-                $(".arrow1").css({"display":"none"})
-                $(".infobox1").css({"display":"none"})
-            }) 
-        }
-        else
-        {
-            $(".arrow1").css({"display":"none"})
-            $(".infobox1").css({"display":"none"})
-            $(".arrow2").css({"display":"block"})
-            $(".infobox2").css({"display":"block"}).text(data)
-            position = $(this).attr("pos-to");
-            card_no = 
-            // alert(position)
-            $(".arrow2").css({
-                left: position,
-            })
-        }
-        });
-    }
-    else
-    {
-        $(".card").click(function (e) 
-        { 
-            // alert()
-            data = $(this).find(".card-infobox").html();
-            // alert(data);
-            $(".responsive-arrow").css("display","none")
-            $(".responsive-infobox").css("display","none")
-            $(this).next(".responsive-arrow").next(".responsive-infobox").append(data).css("display","block")
-            $(this).next(".responsive-arrow").css("display","none")
-        });
-    }
-});
-</script>
+<script src="assets/js/index.js"></script>
 </html>
