@@ -552,47 +552,49 @@
             <div class="formLeft p-3 mt-3 mb-3" style="float:left;width:20%;height: 50vh;">
                 <img src="assets/images/logo/paathshala-favicon.png" alt="" style="width: 50%;margin-top:50%;">
             </div>
+            <form method="post" name ="enquiryForm">
             <div class="formRight p-3 mt-3 mb-3" style="float:right;width: 80%;border-top-left-radius: 10% 50%;border-bottom-left-radius: 10% 50%;background: white;">
                 <h3 class="text-center">Let's Get Started</h3>
                 <div class="col-md-6" style="float: left;font-size: 18px;">
                     <div class="form-group">
-                        <input type="text" class="fa form-control" placeholder="&#xf007   Your Name *" value="" />
+                        <input name="txtName" type="text" class="fa form-control" placeholder="&#xf007   Your Name *" value="" />
                     </div>
                     <div class="form-group">
-                        <input type="text" minlength="10" maxlength="10" name="txtPhone" class="fa form-control" placeholder="&#xf095   Your Phone *" value="" />
+                        <input type="number" minlength="10" maxlength="10" name="txtPhone" class="fa form-control" placeholder="&#xf095   Your Phone *" value="" />
                     </div>
                     <div class="form-group">
-                        <select class="fa form-control">
+                        <select name="ddlClass" class="fa form-control">
                             <option class="hidden"  selected disabled>Select Your Standard</option>
-                            <option>VIII</option>
-                            <option>IX</option>
-                            <option>X</option>
-                            <option>XI</option>
-                            <option>XII</option>
+                            <option value="8">VIII</option>
+                            <option value="9">IX</option>
+                            <option value="10">X</option>
+                            <option value="11">XI</option>
+                            <option value="12">XII</option>
                         </select>
                     </div>
                 </div>
                 <div class="col-md-6 float-right" style="font-size: 18px;" >
                     <div class="form-group">
-                        <input id="email" type="email" class="fa form-control" placeholder="&#xf1a0   Your Email *" value="" />
+                        <input id="email" type="email" class="fa form-control" placeholder="&#xf1a0   Your Email *" name="txtEmail" />
                     </div>
                     <div class="form-group">
-                        <input type="text" class="fa form-control" placeholder="&#xf19c   School/College Name *" value="" />
+                        <input type="text" class="fa form-control" placeholder="&#xf19c   School/College Name *" name="txtCollege" />
                     </div>
                     <div class="form-group">
-                        <select class="fa form-control" multiple>
+                        <select name="ddlExam" class="fa form-control" multiple>
                             <option class="hidden"  selected disabled>Exams Preparing For</option>
-                            <option>X Boards</option>
-                            <option>JEE [Mains]</option>
-                            <option>JEE [Advanced]</option>
-                            <option>NEET</option>
-                            <option>XII Boards</option>
-                            <option>Olympiads</option>
-                            <option>KVPY</option>
+                            <option value="10th Boards">X Boards</option>
+                            <option value="JEE Mains">JEE [Mains]</option>
+                            <option value="JEE Advanced">JEE [Advanced]</option>
+                            <option value="NEET">NEET</option>
+                            <option value="12th Boards">XII Boards</option>
+                            <option value="Olympiads">Olympiads</option>
+                            <option value="KVPL">KVPY</option>
                         </select>
                     </div>
-                    <input type="submit" class="btn btn-info btnRegister"  value="Send Enquiry"/>
+                    <input type="button" class="btn btn-info btnRegister"  value="Send Enquiry"/>
                 </div>
+            </form>
             </div>
         </div>
     </div>
@@ -682,4 +684,5 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 <script src="assets/js/index.js"></script>
+<script src="enquiry.js"></script>
 </html>
