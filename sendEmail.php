@@ -3,11 +3,15 @@ require_once('assets/PHPMailer/src/Exception.php');
 require_once('assets/PHPMailer/src/PHPMailer.php');
 require_once('assets/PHPMailer/src/SMTP.php');
 
-$username = $_POST["txtname"];
+$username = $_POST["txtName"];
 $std = $_POST["ddlClass"];
-$std = $_POST["ddlExam"];
-$email = strtolower($_POST["email"]); 
-// Instantiation and passing `true` enables exceptions
+// echo $exams;
+$exams="";
+foreach($_POST["ddlExam"] as $exam)
+    $exams .=", ".$exam;
+
+$email = strtolower($_POST["txtEmail"]);
+// // Instantiation and passing `true` enables exceptions
 
 $mail = new PHPMailer\PHPMailer\PHPMailer();
 $mail->IsSMTP();
@@ -25,13 +29,13 @@ try {
 );
     $mail->Host       = 'smtp.gmail.com';  // Specify main and backup SMTP servers
     $mail->SMTPAuth   = true;                                   // Enable SMTP authentication
-    $mail->Username   = 'danishmulla1234@gmail.com';                     // SMTP username
-    $mail->Password   = 'dan91823';                               // SMTP password
+    $mail->Username   = 'pedeveloper.2019@gmail.com';                     // SMTP username
+    $mail->Password   = 'supermanbatman@2019';                             // SMTP password
     $mail->SMTPSecure = 'tls';                                  // Enable TLS encryption, `ssl` also accepted
     $mail->Port       = 587;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('danishmulla1234@gmail.com', 'Admin CIMS');
+    $mail->setFrom('pedeveloper.2019@gmail.com', 'Admin PhotonEcademy');
     $mail->addAddress($email);     // Add a recipient
     // $mail->addAddress('ellen@example.com');               // Name is optional
     // $mail->addReplyTo('info@example.com', 'Information');
@@ -44,8 +48,8 @@ try {
 
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML
-    $mail->Subject = 'Account Creation';
-    $mail->Body    = ' Your Account is created with <br>Username <b>'.$username.'</b><br> and randomly created Password <b>'.$pass.'</b><br>It is advised to change the password from settings tab after succussesful login. ';
+    $mail->Subject = 'Student Enquiry';
+    $mail->Body    = 'Enquiry submitted by <br>Student Name: '.$username.'<br> Email-Id: '.$email.'<br> Standard: '.$std.'<br> apearing for exam/s: '.$exams;
     // $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
 
     if($mail->send()){

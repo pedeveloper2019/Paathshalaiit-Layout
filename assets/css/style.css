@@ -43,6 +43,7 @@ h1,h2,h3,h4,h5,h6{
 /* Tablist ul li  */
 .nav-tabs .nav-link{
   width: 25%;
+  text-align: center;
 }
 #workshoptabs{
     padding: 4vh;
@@ -159,9 +160,13 @@ ul {
 }
 .top-links{
   float: right;
+  margin-right: 1vh;
+  border-right: 1px solid white;
+  padding-right: .5vw;
 }
 .top-links a{
     color: white;
+    /* border: 1px solid red; */
 }
 .top-links a:hover{
     text-decoration: none;
@@ -188,3 +193,12 @@ ul {
 }
 
 /* Enrollment Form */
+.leftDiv{
+    width:30%;
+    /* border:1px solid blue; */
+}
+.rightDiv{
+    width:70%;
+    /* border:1px solid red; */
+    border-top-left-radius: 10% 50%;border-bottom-left-radius: 10% 50%;
+}

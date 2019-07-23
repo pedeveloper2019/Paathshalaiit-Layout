@@ -1,9 +1,10 @@
 $(function () {
     // alert()
-    $(".btnRegister").click(function (e) { 
+    $(".btnSend").click(function (e) { 
         e.preventDefault();
         data = $("form[name=enquiryForm]").serialize()
-        // alert(data)
+        data1 = JSON.stringify(data)
+        alert(data1)
         $.ajax({
             type: "post",
             url: "sendEmail.php",
