@@ -9,30 +9,7 @@ $(function () {
         $(".slideDiv").slideUp();
         $(".navCollapse").slideToggle();
     });
-    
-    header = $("#slider").height()
-    
-    $(window).scroll(function () { 
-        if ($(window).scrollTop() >= header) {
-            $(".togglebtn").css("color","black");
-            $('.navbar').removeClass('navbar-dark');
-            $('.navbar').addClass('navbar-light bg-light');
-            $('.navbar').addClass('bg-light');
-            $('.navbar ul').removeClass("bg-dark");
-            $('.navbar ul').addClass("text-dark");
-            $(".navbar").css("margin-top","0vh")
-            $(".navbar-brand img").attr("src","assets/images/logo/ps.png");
-        }
-        else {
-            $(".togglebtn").css("color","white");
-            $('.navbar').removeClass('bg-light');
-            $('.navbar').addClass('navbar-dark');
-            $('.navbar ul').addClass('bg-dark');
-            $(".navbar").css("margin-top","3vh")
-            $(".navbar-brand img").attr("src","assets/images/logo/whitelLogo-Paathshala.png");
-        }
-    });
-    // alert($(window).width())
+
     if(!($(window).width() < 990))
     {
         $(".card").click(function (e) {

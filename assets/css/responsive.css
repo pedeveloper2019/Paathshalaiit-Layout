@@ -12,7 +12,7 @@
     .togglebtn{
         display: block;
     }
-    .card
+    #Features .card
     {
         width: 30vw;
         display:block;
@@ -33,7 +33,7 @@
         /* height: 50vh; */
         /* border:1px solid red; */
     }
-    .card-img-top{
+    #Features .card-img-top{
         height:30vh !important;
     }
     .navbar ul li{
@@ -50,7 +50,7 @@
     .top-nav{
         font-size: 2vw;
     }
-    .card
+    #Features .card
     {
         width: 60vw;
         display:block;
