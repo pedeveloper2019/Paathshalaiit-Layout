@@ -218,3 +218,12 @@ ul {
 }
 
 /* End Of Home Page Style */
+/* KVPY-IISER page style */
+#A2C3 a{
+    color:white;
+}
+#A2C3 a:hover{
+    text-decoration: none;
+    color:green;
+}
+/* KVPY-IISER page style end */

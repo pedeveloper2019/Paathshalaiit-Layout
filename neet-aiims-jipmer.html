@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="assets/images/logo/paathshala-favicon.png" type="image/x-icon">
+    <title>NEET-AIIMS-JIPMER</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800%7CPoppins:300i,400,700,400i,500%7CDosis:300" rel="stylesheet">
+
+    <!-- Bootstrap Links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/css/bootstrap-select.min.css">
+
+    <!-- FontAwesome Link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css" integrity="sha256-JN6PzDiVqV2siZjedqNB10DTVZsdRKY5oW0TTvYpAuQ=" crossorigin="anonymous" />
+
+    <!-- Custom style -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- Header Navbar  -->
+    <div class="slideDiv bg-light p-3">
+        <ul class="list-unstyled text-center">
+            <li><a href="#">ADMISSION ENQUIRY</a></li>
+            <li><a href="#">RESOURCES</a></li>
+            <li><a href="#">CAREERS&nbsp;&nbsp;</a></li>
+            <li><a href="#">SPARK EXCELLENCE</a></li>
+        </ul>
+    </div>
+    <div class="top-nav text-light" style="text-align: center;z-index:10000;position:relative;background: black;">
+        <ul class="list-inline">
+            <li class="list-inline-item top-icons" >
+                <a title="Paathshala Facebook"><i class="fa fa-facebook"></i></a>
+            </li>
+            <li class="list-inline-item top-icons">
+                <a title="Paathshala Twitter"><i class="fa fa-twitter"></i></a>
+            </li>
+            <li class="list-inline-item top-icons">
+                    <a title="Paathshala Pinterest"><i class="fa fa-pinterest-p"></i></a>
+            </li>
+            <li class="list-inline-item top-icons">
+                <a title="Paathshala LinkedIn"><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li class="list-inline-item top-icons">
+                <a title="Paathshala Instagram"><i class="fa fa-instagram"></i></a>
+            </li>
+            <li class="list-inline-item top-icons">
+                <a title="Paathshala Youtube"><i class="fa fa-youtube-play"></i></a>
+            </li>
+            <li class="list-inline-item top-contact">Call us: 9867998388</li>
+            <li class="list-inline-item top-links">
+                <a href="#">ADMISSION ENQUIRY</a>
+            </li>
+            <li class="list-inline-item top-links">
+                <a href="#">RESOURCES</a>
+            </li>
+            <li class="dropdown top-links">
+                <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    CAREERS
+                </a>
+                <div class="dropdown-menu bg-dark animated fadeIn" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item hvr-forward" href="#">JEE MAIN & ADVANCED</a>
+                    <a class="dropdown-item hvr-forward" href="#">BITSAT, CET</a>
+                    <!-- <div class="dropdown-divider"></div> -->
+                    <a class="dropdown-item hvr-forward" href="#">NEET, AIIMS, JIPMER</a>
+                    <a class="dropdown-item hvr-forward" href="#">OLYMPIADS</a>
+                    <a class="dropdown-item hvr-forward" href="#">KVPY,IISER</a>
+                    <a class="dropdown-item hvr-forward" href="#">FOUNDATION</a>
+                </div>
+            </li>
+            <li class="list-inline-item top-links"><a href="#">SPARK EXCELLENCE</a></li>
+        </ul>
+        <div id="top-toggle"><i class="fa fa-bars"></i></div>
+    </div>
+    <div class="navCollapse bg-light">
+        <ul class="list-unstyled text-center pt-3">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about-us.html">About Us</a></li>
+            <li><a href="#">Why Paathshala</a></li>
+            <li class="dropdown ">
+                <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Exams
+                </a>
+                <div class="dropdown-menu animated fadeIn" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item hvr-forward" href="#">JEE MAIN & ADVANCED</a>
+                    <a class="dropdown-item hvr-forward" href="#">BITSAT, CET</a>
+                    <!-- <div class="dropdown-divider"></div> -->
+                    <a class="dropdown-item hvr-forward" href="#">NEET, AIIMS, JIPMER</a>
+                    <a class="dropdown-item hvr-forward" href="#">OLYMPIADS</a>
+                    <a class="dropdown-item hvr-forward" href="#">KVPY,IISER</a>
+                    <a class="dropdown-item hvr-forward" href="#">FOUNDATION</a>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" href="#" id="Dropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Info
+                </a>
+                <div class="dropdown-menu animated fadeIn" aria-labelledby="Dropdown">
+                    <a class="dropdown-item hvr-forward" href="#">EVERYTHING ABOUT IIT,s</a>
+                    <a class="dropdown-item hvr-forward" href="#">TOP MEDICAL COLLEGES</a>
+                    <!-- <div class="dropdown-divider"></div> -->
+                    <a class="dropdown-item hvr-forward" href="#">NEET, AIIMS, JIPMER</a>
+                    <a class="dropdown-item hvr-forward" href="#">WHAT ARE NIT's, IIT's</a>
+                    <a class="dropdown-item hvr-forward" href="#">BITS PILANI</a>
+                </div>
+            </li>
+            <li>
+                <a href="#">Results</a>
+            </li>
+            <li>
+                <a href="#">Testimonials</a>
+            </li>
+            <li>
+                <a href="#">Contact Us</a>
+            </li>
+        </ul>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <a class="navbar-brand" >
+                <img src="assets/images/logo/whitelLogo-Paathshala.png" style="height: 6vh">
+            </a>
+            <div id="my-nav" class=" collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="about-us.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="why-paathshala.html">Why Paathshala</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Exams
+                            </a>
+                            <div class="dropdown-menu animated fadeIn" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item hvr-forward" href="#">JEE MAIN & ADVANCED</a>
+                              <a class="dropdown-item hvr-forward" href="#">BITSAT, CET</a>
+                              <!-- <div class="dropdown-divider"></div> -->
+                              <a class="dropdown-item hvr-forward" href="#">NEET, AIIMS, JIPMER</a>
+                              <a class="dropdown-item hvr-forward" href="#">OLYMPIADS</a>
+                              <a class="dropdown-item hvr-forward" href="#">KVPY,IISER</a>
+                              <a class="dropdown-item hvr-forward" href="#">FOUNDATION</a>
+                            </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              Info
+                            </a>
+                            <div class="dropdown-menu animated fadeIn" aria-labelledby="navbarDropdown">
+                              <a class="dropdown-item hvr-forward" href="#">EVERYTHING ABOUT IIT,s</a>
+                              <a class="dropdown-item hvr-forward" href="#">TOP MEDICAL COLLEGES</a>
+                              <!-- <div class="dropdown-divider"></div> -->
+                              <a class="dropdown-item hvr-forward" href="#">NEET, AIIMS, JIPMER</a>
+                              <a class="dropdown-item hvr-forward" href="#">WHAT ARE NIT's, IIT's</a>
+                              <a class="dropdown-item hvr-forward" href="#">BITS PILANI</a>
+                            </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Results</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+            <div id="navCollapsebtn" class="nav-item togglebtn"><i class="fa fa-bars"></i></div>
+        </nav>
+    <!-- Header End -->
+    <!-- Details Of Exam -->
+    <div style="/*background: linear-gradient(to left, #185a9d, #43cea2);*/background: black;padding-top:10vh;">
+        <div class="container" id="workshoptabs">
+            <h3 class="text-info">BITSAT & CET Info</h3><br>
+            <nav>
+                <div class="nav nav-tabs wow slideInUp" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link text-info active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">BITSAT</a>
+                    <a class="nav-item nav-link text-info" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">CET</a>
+                    <a class="nav-item nav-link text-info" id="nav-jipmer-tab" data-toggle="tab" href="#nav-jipmer" role="tab" aria-controls="nav-jipmer" aria-selected="false">JIPMER</a>
+                </div>
+            </nav>
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active text-dark p-4 wow slideInUp" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                    <div id="accordion">
+                        <div class="card bg-dark">
+                            <div class="card-header text-info" id="A1H1" data-toggle="collapse" data-target="#A1C1" aria-expanded="true" aria-controls="A1C1">
+                            <h5 class="mb-0">
+                                Exam Overview Of NEET
+                            </h5>
+                            </div>
+                            <div id="A1C1" class="collapse show text-light" aria-labelledby="A1H1" data-parent="#accordion">
+                                <div class="card-body">
+                                    <ul class="list-unstyled listParent ">
+                                        <li><i class="fa fa-star"></i>
+                                            The National Eligibility cum Entrance Test (NEET) is held yearly to help students secure admission to the top medical institutions in India. In 2018, more than 13 lakh candidates gave NEET in 103 cities.
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                            NEET will be conducted by National Testing Agency (NTA) from 2019.
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                            All major dental and medical colleges offer students admission on the basis of their NEET scores, excluding AIIMS and JIPMER.
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                            There are 63,985 medical seats in private, central and state-funded institutions under NEET.
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                            The examination is conducted in 10 different languages: English, Hindi, Tamil, Telugu, Marathi, Bengali, Assamese, Gujarati, Oriya and Kannada.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-light">
+                            <div class="card-header" id="A1H2" data-toggle="collapse" data-target="#A1C2" aria-expanded="false" aria-controls="A1C2">
+                            <h5 class="mb-0">
+                                Exam Pattern Of NEET
+                            </h5>
+                            </div>
+                            <div id="A1C2" class="collapse" aria-labelledby="A1H2" data-parent="#accordion">
+                                <div class="card-body">
+                                    <ul class="list-unstyled listParent">
+                                        <li><i class="fa fa-star"></i>
+                                            Subjects: Physics, Chemistry and Biology.
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                            Type of questions: Objective (MCQs with 4 options).
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                            Mode of examination: Pen and paper based test.
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                            Exam duration: 3 hours.
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                            Number of questions: 180.
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                            Marking scheme: 4 marks awarded for each correct answer.
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                            Negative marking: 1 mark deducted for each incorrect answer.
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                            Languages: English, Hindi, Assamese, Bengali, Gujarati, Marathi, Tamil, Telugu, Oriya and Kannada.
+                                        </li>
+                                        <li><i class="fa fa-star"></i>
+                                            Here is the subject-wise breakdown of questions:
+                                        </li>
+                                        <li><i class="fa fa-check"></i>
+                                            Physics: 45
+                                        </li>
+                                        <li><i class="fa fa-check"></i>
+                                            Chemistry: 45
+                                        </li>
+                                        <li><i class="fa fa-check"></i>
+                                            Biology: 90
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-dark">
+                            <div class="card-header text-info" id="A1H3" data-toggle="collapse" data-target="#A1C3" aria-expanded="false" aria-controls="A1C3">
+                            <h5 class="mb-0">
+                                Eligibility Criteria For NEET
+                            </h5>
+                            </div>
+                            <div id="A1C3" class="collapse text-light" aria-labelledby="A1H3" data-parent="#accordion">
+                                <div class="card-body">
+                                    <ul class="list-unstyled listParent">
+                                        <li class="mt-2"><i class="fa fa-star"></i>
+                                            Age:
+                                        </li>
+                                        <li class="mt-2 ml-3"><i class="fa fa-check"></i>
+                                            The minimum age limit for all candidates is 17 years on or before 31st December of the year of admission.
+                                        </li>
+                                        <li class="mt-2 ml-3"><i class="fa fa-check"></i>
+                                            The maximum age limit for NEET is 25 years for general candidates and 30 years for reserved candidates.
+                                        </li>
+                                        <li class="mt-2"><i class="fa fa-star"></i>
+                                            Subjects : You must have studied Physics, Chemistry, Biology, any    other elective subject with English.
+                                        </li>
+                                        <li class="mt-2"><i class="fa fa-star"></i>
+                                            Score in 12th or equivalent examination:
+                                        </li>
+                                        <li class="mt-2 ml-3"><i class="fa fa-check"></i>
+                                            As a general category candidate, you require a minimum aggregate score of 50% in your 10+2 or equivalent examination.
+                                        </li>
+                                        <li class="mt-2 ml-3"><i class="fa fa-check"></i>
+                                            As an OBC, SC or ST candidate, you require a minimum aggregate score of 40%.
+                                        </li>
+                                        <li class="mt-2 ml-3"><i class="fa fa-check"></i>
+                                            As a SC-PH, ST-PH or OBC-PH candidate, you require a minimum aggregate score of 40%.
+                                        </li>
+                                        <li class="mt-2 ml-3"><i class="fa fa-check"></i>
+                                            As a PH, PwD or Gen-PH candidate, you require a minimum aggregate score of 45%.
+                                        </li>
+                                        <li class="mt-2"><i class="fa fa-star"></i>
+                                            Number of attempts : You can attempt the exam as many times as you want till the age of 25.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-light">
+                            <div class="card-header text-dark" id="A1H4" data-toggle="collapse" data-target="#A1C4" aria-expanded="false" aria-controls="A1C4">
+                            <h5 class="mb-0">
+                                Registration For NEET
+                            </h5>
+                            </div>
+                            <div id="A1C4" class="collapse text-dark" aria-labelledby="A1H4" data-parent="#accordion">
+                                <div class="card-body">
+                                    <ul class="list-unstyled listParent ">
+                                        <li class="mt-2"><i class="fa fa-check"></i>
+                                            The NEET application form needs to be filled online.
+                                        </li>
+                                        <li class="mt-2"><i class="fa fa-check"></i>
+                                            You need to provide details such as email ID, phone number, parent’s details, educational and domicile information.
+                                        </li>
+                                        <li class="mt-2"><i class="fa fa-check"></i>
+                                            You will have to choose a password for your login ID and pay the application fee.
+                                        </li>
+                                        <li class="mt-2"><i class="fa fa-check"></i>
+                                            Step 1: Filling the application form.
+                                        </li>
+                                        <li class="mt-2 ml-3">
+                                            Click on ‘Apply Online’ and proceed.<br>
+                                            Keep the following details ready like date of birth, Aadhaar number, mobile number, email address and security pin.<br>
+                                            Keep your domicile, educational and guardian details ready.<br>
+                                            Choose the language in which you want to appear for your exam.<br>
+                                            Select 3 choices for your exam centre.
+                                        </li>
+                                        <li class="mt-2"><i class="fa fa-check"></i>
+                                            Step 2: Choose and upload
+                                        </li>
+                                        <li class="mt-2 ml-3">
+                                            Choose the language in which you want to appear for your exam.
+                                        </li>
+                                        <li class="mt-2 ml-3">
+                                            Select 3 choices for your exam centre.
+                                        </li>
+                                        <li class="mt-2 ml-3">
+                                            Note down your registration number and click on ‘Submit’.
+                                        </li>
+                                        <li class="mt-2 ml-3">
+                                            Upload a scanned copy of your photograph and signature.
+                                        </li>
+                                        <li class="mt-2"><i class="fa fa-check"></i>
+                                            Step 3: Payment of application fee
+                                        </li>
+                                        <li class="mt-2 ml-3">
+                                            Select your bank and enter your details.<br>
+                                            You can pay using debit or credit card, netbanking, CSC e-wallet.<br>
+                                        </li>
+                                        <li class="mt-2"><i class="fa fa-check"></i>
+                                            Step 4: Confirmation page
+                                        </li>
+                                        <li class="mt-2 ml-3">
+                                            This page will mention all the details you have filled out in the application form.<br>
+                                            Keep a copy of this page saved at all times.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-dark">
+                            <div class="card-header text-info" id="A1H5" data-toggle="collapse" data-target="#A1C5" aria-expanded="false" aria-controls="A1C5">
+                            <h5 class="mb-0">
+                                Top 10 Colleges That For NEET Aspirants
+                            </h5>
+                            </div>
+                            <div id="A1C5" class="collapse text-light" aria-labelledby="A1H5" data-parent="#accordion">
+                                <div class="card-body">
+                                    <ul class="list-unstyled">
+                                        <li>1. Maulana Azad Medical College, New Delhi.</li>
+                                        <li>2. Lady Hardinge Medical College, New Delhi.</li>
+                                        <li>3. King George Medical College, Lucknow.</li>
+                                        <li>4. Institute of Medical Sciences, Banaras Hindu University, Varanasi.</li>
+                                        <li>5. Christian Medical College, Ludhiana.</li>
+                                        <li>6. Grant Medical College, Mumbai.</li>
+                                        <li>7. BJMC, Ahmedabad.</li>
+                                        <li>8. BJMC, Pune.</li>
+                                        <li>9. Kolkata Medical College, Kolkata.</li>
+                                        <li>10. Assam Medical College, Dibrugarh, Assam.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade text-dark p-4" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                    <div id="accordion2">
+                        <div class="card bg-dark">
+                            <div class="card-header text-info" id="A2H1" data-toggle="collapse" data-target="#A2C1" aria-expanded="true" aria-controls="A2C1">
+                            <h5 class="mb-0">
+                                What Is AIIMS
+                            </h5>
+                            </div>
+                            <div id="A2C1" class="collapse show text-light" aria-labelledby="A2H1" data-parent="#accordion2">
+                                <div class="card-body">
+                                    The All India Institute of Medical Sciences (AIIMS) is a group of autonomous medical colleges of higher education.
+                                    <br>
+                                    These institutes have been declared by an Act of Parliament as Institutes of National Importance.
+                                    <br>
+                                    AIIMS Delhi, the fore-runner parent excellence institution, was established in 1956.
+                                    <br>
+                                    Through a national level undergraduate medical entrance exam, they grant admissions to students for MBBS programmes.
+                                    <br>
+                                    Every year, over 3 lakh students apply for this exam.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-light">
+                            <div class="card-header" id="A2H2" data-toggle="collapse" data-target="#A2C2" aria-expanded="false" aria-controls="A2C2">
+                            <h5 class="mb-0">
+                                AIIMS And Locations
+                            </h5>
+                            </div>
+                            <div id="A2C2" class="collapse" aria-labelledby="A2H2" data-parent="#accordion2">
+                                <div class="card-body">
+                                    <table id="example" class="table table-striped table-bordered text-center" cellspacing="0" width="100%">
+                                        <thead>
+                                          <tr class="text-center">
+                                            <th>Name</th>
+                                            <th>Established</th>
+                                            <th>City/Town</th>
+                                            <th>State/UT</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>AIIMS New Delhi</td>
+                                            <td>1956</td>
+                                            <td>New Delhi</td>
+                                            <td>Delhi</td>                                            
+                                          </tr>
+                                          <tr>
+                                            <td>AIIMS Bhopal</td>
+                                            <td>2012</td>
+                                            <td>Bhopal</td>
+                                            <td>Madhya Pradesh</td>
+                                          </tr>
+                                          <tr>
+                                            <td>AIIMS Bhubaneswar</td>
+                                            <td>2012</td>
+                                            <td>Bhubaneswar</td>
+                                            <td>Odisha</td>
+                                          </tr>
+                                          <tr>
+                                            <td>AIIMS Jodhpur</td>
+                                            <td>2012</td>
+                                            <td>Jodhpur</td>
+                                            <td>Rajasthan</td>
+                                          </tr>
+                                          <tr>
+                                            <td>AIIMS Patna</td>
+                                            <td>2012</td>
+                                            <td>Patna</td>
+                                            <td>Bihar</td>
+                                          </tr>
+                                          <tr>
+                                            <td>AIIMS Raipur</td>
+                                            <td>2012</td>
+                                            <td>Raipur</td>
+                                            <td>Chhattisgarh</td>
+                                          </tr>
+                                          <tr>
+                                            <td>AIIMS Rishikesh</td>
+                                            <td>2012</td>
+                                            <td>Rishikesh</td>
+                                            <td>Uttarakhand</td>
+                                          </tr>
+                                          <tr>
+                                            <td>AIIMS Mangalagiri</td>
+                                            <td>2018</td>
+                                            <td>Mangalagiri</td>
+                                            <td>Andhra Pradesh</td>
+                                          </tr>
+                                          <tr>
+                                            <td>AIIMS Nagpur</td>
+                                            <td>2018</td>
+                                            <td>Nagpur</td>
+                                            <td>Maharastra</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-dark">
+                            <div class="card-header text-info" id="A2H3" data-toggle="collapse" data-target="#A2C3" aria-expanded="false" aria-controls="A2C3">
+                            <h5 class="mb-0">
+                                Future AIIMS And Locations
+                            </h5>
+                            </div>
+                            <div id="A2C3" class="collapse text-light" aria-labelledby="A2H3" data-parent="#accordion2">
+                                <div class="card-body">
+                                    <table id="example" class="table table-striped table-bordered text-center" cellspacing="0" width="100%">
+                                        <thead>
+                                          <tr class="text-center">
+                                            <th>Name</th>
+                                            <th>Established</th>
+                                            <th>City/Town</th>
+                                            <th>State/UT</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <td>AIIMS Gorakhpur</td>
+                                            <td>Gorakhpur</td>
+                                            <td>Uttar Pradesh</td>
+                                            <td rowspan="2">Phase IV
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td>AIIMS Kalyani</td>
+                                            <td>Kalyani</td>
+                                            <td>West Bengal</td>
+                                          </tr>
+                                          <tr>
+                                            <td>AIIMS Bhatinda</td>
+                                            <td>Bhatinda</td>
+                                            <td>Punjab</td>
+                                            <td rowspan="7">Phase V
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td>AIIMS Kamrup</td>
+                                            <td>Changsari</td>
+                                            <td>Assam</td>
+                                          </tr>
+                                          <tr>
+                                            <td>AIIMS Jammu</td>
+                                            <td>Vijay Pur</td>
+                                            <td>Jammu and Kashmir</td>
+                                          </tr>
+                                          <tr>
+                                            <td>AIIMS Kashmir</td>
+                                            <td>Awantipora</td>
+                                            <td>Jammu and Kashmir</td>
+                                          </tr>
+                                          <tr>
+                                            <td>AIIMS Bilaspur</td>
+                                            <td>Bilaspur</td>
+                                            <td>Himachal Pradesh</td>
+                                          </tr>
+                                          <tr>
+                                            <td>AIIMS Madurai</td>
+                                            <td>Madurai</td>
+                                            <td>Tamilnadu</td>
+                                          </tr>
+                                          <tr>
+                                            <td>AIIMS Bihar</td>
+                                            <td>Darbhanga</td>
+                                            <td>Bihar</td>
+                                          </tr>
+                                          <tr>
+                                            <td>AIIMS Deoghar</td>
+                                            <td>Deoghar</td>
+                                            <td>Jharkhand</td>
+                                            <td rowspan="2">Phase VI
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td>AIIMS Gujarat</td>
+                                            <td>Rajkot</td>
+                                            <td>Gujarat</td>
+                                          </tr>
+                                          <tr>
+                                            <td>AIIMS Telangana</td>
+                                            <td>Bibinagar</td>
+                                            <td>Telangana</td>
+                                            <td>
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td>AIIMS Rewari</td>
+                                            <td>Rewari</td>
+                                            <td>Haryana</td>
+                                            <td>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-light">
+                            <div class="card-header text-dark" id="A2H4" data-toggle="collapse" data-target="#A2C4" aria-expanded="false" aria-controls="A2C4">
+                            <h5 class="mb-0">
+                                Exam Pattern Of AIIMS
+                            </h5>
+                            </div>
+                            <div id="A2C4" class="collapse text-dark" aria-labelledby="A2H4" data-parent="#accordion2">
+                                <div class="card-body">
+                                    <p>
+                                        Subjects: Physics, Chemistry and Biology, General Knowledge & Aptitude and Logical Thinking.
+                                        <br><br>
+                                        Type of Questions: Objective (MCQs with 4 options).
+                                        <br><br>
+                                        Mode of Examination: Computer-based test.
+                                        <br><br>
+                                        Exam Duration: 3.5 hours.
+                                        <br><br>
+                                        Number of Questions: 200.
+                                        <br><br>
+                                        Marking Scheme: 1 mark awarded for each correct answer.
+                                        <br><br>
+                                        Negative Marking: 1/3 mark deducted for each incorrect answer.
+                                        <br><br>
+                                        Languages: English and Hindi.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-dark">
+                            <div class="card-header text-info" id="A2H5" data-toggle="collapse" data-target="#A2C5" aria-expanded="false" aria-controls="A2C5">
+                            <h5 class="mb-0">
+                                Subject Wise Weightage
+                            </h5>
+                            </div>
+                            <div id="A2C5" class="collapse text-light" aria-labelledby="A2H3" data-parent="#accordion2">
+                                <div class="card-body">
+                                    Physics: 60 Questions.
+                                    <br><br>
+                                    Chemistry: 60 Questions.
+                                    <br><br>
+                                    Biology: 60 Questions.
+                                    <br><br>
+                                    General Knowledge: 10 Questions.
+                                    <br><br>
+                                    Aptitude and Logical Thinking: 10 Questions .
+                                    <br><br>
+                                    Total: 200 Questions.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-light">
+                            <div class="card-header text-dark" id="A2H6" data-toggle="collapse" data-target="#A2C6" aria-expanded="false" aria-controls="A2C6">
+                            <h5 class="mb-0">
+                                Eligibility Criteria For AIIMS
+                            </h5>
+                            </div>
+                            <div id="A2C6" class="collapse text-dark" aria-labelledby="A2H6" data-parent="#accordion2">
+                                <div class="card-body">
+                                    <ul class="list-unstyled listParent">
+                                        <li class="mt-2"><i class="fa fa-check"></i>
+                                            Age : You must have completed 17 years of age on December 31st of the year of admission.
+                                        </li>
+                                        <li class="mt-2"><i class="fa fa-check"></i>
+                                            Subjects : You must have English, Physics, Chemistry and Biology as compulsory subjects in your 10+2 or equivalent examination.
+                                        </li>
+                                        <li class="mt-2"><i class="fa fa-star"></i>
+                                            Score in 10+2 or equivalent exam:
+                                        </li>
+                                        <li class="mt-2 ml-3"><i class="fa fa-check"></i>
+                                            You must have passed Class 12 under the 10+2 scheme from SSC, CBSE, ISC or any equivalent examination from a recognized board or Indian university.
+                                        </li>
+                                        <li class="mt-2 ml-3"><i class="fa fa-check"></i>
+                                            As a General category candidate, you must have scored a minimum aggregate of least 60% in English, Physics, Chemistry and Biology.
+                                        </li>
+                                        <li class="mt-2 ml-3"><i class="fa fa-check"></i>
+                                            As an SC or ST candidate, your minimum aggregate should be 50%.
+                                        </li>
+                                        <li class="mt-2"><i class="fa fa-star"></i>
+                                            Current Class 12 students:
+                                        </li>
+                                        <li class="mt-2 ml-3"><i class="fa fa-check"></i>
+                                            If you are currently applying for your Class 12 examination, you are still eligible to apply for AIIMS.
+                                        </li>
+                                        <li class="mt-2 ml-3"><i class="fa fa-check"></i>
+                                            However, your application will only be considered valid after you provide evidence of having passed your exam with the minimum score.
+                                        </li>
+                                        <li class="mt-2"><i class="fa fa-star"></i>
+                                            Aadhaar card requirement : You need a registered Aadhaar Card Number to be eligible to apply for AIIMS.
+                                        </li>
+                                        <li class="mt-2"><i class="fa fa-star"></i>
+                                            Number of attempts : There is no limit to the number of attempts for this examination.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-dark">
+                            <div class="card-header text-info" id="A2H7" data-toggle="collapse" data-target="#A2C7" aria-expanded="false" aria-controls="A2C7">
+                            <h5 class="mb-0">
+                                Subject Wise Weightage
+                            </h5>
+                            </div>
+                            <div id="A2C7" class="collapse text-light" aria-labelledby="A2H7" data-parent="#accordion2">
+                                <div class="card-body">
+                                    <ul class="list-unstyled">
+                                        <li class="mt-2"><i class="fa fa-star"></i>
+                                            The AIIMS application form needs to be filled online.
+                                        </li>
+                                        <li class="mt-2"><i class="fa fa-star"></i>
+                                            You need to provide details such as email id, phone number, parents' details, educational and domicile information.
+                                        </li>
+                                        <li class="mt-2"><i class="fa fa-star"></i>
+                                            You will have to choose a password for your login ID and pay the application fee.
+                                        </li>
+                                        <li class="mt-2"><i class="fa fa-star"></i>
+                                            To register for AIIMS, you need to :
+                                        </li>
+                                        <li class="mt-2 ml-3"><i class="fa fa-check"></i>
+                                            Visit the official website.
+                                        </li>
+                                        <li class="mt-2 ml-3"><i class="fa fa-check"></i>
+                                            Click the ‘New Registration’ tab.
+                                        </li>
+                                        <li class="mt-2 ml-3"><i class="fa fa-check"></i>
+                                            Read the instructions and click ‘Proceed’.
+                                        </li>
+                                        <li class="mt-2 ml-3"><i class="fa fa-check"></i>
+                                            Fill in your personal details and contact information.
+                                        </li>
+                                        <li class="mt-2 ml-3"><i class="fa fa-check"></i>
+                                            Note down your Candidate ID and click ‘OK’.
+                                        </li>
+                                        <li class="mt-2 ml-3"><i class="fa fa-check"></i>
+                                            Pay the ‘Application Fee’.
+                                        </li>
+                                        <li class="mt-2 ml-3"><i class="fa fa-check"></i>
+                                            Select your choice of exam centre.
+                                        </li>
+                                        <li class="mt-2 ml-3"><i class="fa fa-check"></i>
+                                            Fill in your address and qualification details.
+                                        </li>
+                                        <li class="mt-2 ml-3"><i class="fa fa-check"></i>
+                                            Upload all scanned images.
+                                        </li>
+                                        <li class="mt-2 ml-3"><i class="fa fa-check"></i>
+                                            Click ‘Save and Proceed’.
+                                        </li>
+                                        <li class="mt-2 ml-3"><i class="fa fa-check"></i>
+                                            Take a printout for future reference purposes.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-pane fade text-dark p-4 wow slideInUp" id="nav-jipmer" role="tabpanel" aria-labelledby="nav-jipmer-tab">
+                    <div id="accordion3">
+                        <div class="card bg-dark">
+                            <div class="card-header text-info" id="A3H1" data-toggle="collapse" data-target="#A3C1" aria-expanded="true" aria-controls="A3C1">
+                            <h5 class="mb-0">
+                                What Is JIPMER
+                            </h5>
+                            </div>
+                            <div id="A3C1" class="collapse show text-light" aria-labelledby="A3H1" data-parent="#accordion3">
+                                <div class="card-body">
+                                    JIPMER is a national level under graduate medical entrance exam, conducted by Jawaharlal Institute of Postgraduate Medical Education and Research (JIPMER) for admission to MBBS programmes.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-light">
+                            <div class="card-header" id="A3H2" data-toggle="collapse" data-target="#A3C2" aria-expanded="false" aria-controls="A3C2">
+                            <h5 class="mb-0">
+                                Exam Pattern Of JIPMER
+                            </h5>
+                            </div>
+                            <div id="A3C2" class="collapse" aria-labelledby="A3H2" data-parent="#accordion3">
+                                <div class="card-body">
+                                    The examination comprises of 5 sections: Chemistry, Physics, Biology, Logical and Quantitative Reasoning, English and Comprehension.
+                                    <br><br>
+                                    It consists of 200 multiple choice questions.
+                                    <br><br>
+                                    Each correct answer shall be awarded 4 marks.
+                                    <br><br>
+                                    1 mark will be deducted for every incorrect answer.
+                                    <br><br>
+                                    No marks will be deducted for questions marked for review or left unattempted.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card bg-dark">
+                            <div class="card-header text-info" id="A3H3" data-toggle="collapse" data-target="#A3C3" aria-expanded="false" aria-controls="A3C3">
+                            <h5 class="mb-0">
+                                Eligibility Criteria For JIPMER
+                            </h5>
+                            </div>
+                            <div id="A3C3" class="collapse text-light" aria-labelledby="A3H3" data-parent="#accordion3">
+                                <div class="card-body">
+                                    <ul class="list-unstyled listParent">
+                                        <li class="mt-2">
+                                            You must be an Indian citizen/overseas citizen of India.
+                                        </li>
+                                        <li class="mt-2">
+                                            You must have completed 17 years of age at the time of admission.
+                                        </li>
+                                        <li class="mt-2">
+                                            You must have passed 10+2 or equivalent examination in Biology/Biotechnology, Physics, Chemistry, with English as an elective subject, as prescribed by the National Council of Educational Research and Training (NCERT).
+                                        </li>
+                                        <li class="mt-2">
+                                            Unreserved/General category: Such aspirants must should have passed 10+2 or equivalent examination in Physics, Chemistry, Biology/Biotechnology and English with at least 50% marks in all subjects.
+                                        </li>
+                                        <li class="mt-2">
+                                            Reserved/Scheduled Caste/Scheduled Tribe/Other Backward Classes: Such aspirants must have passed 10+2 or equivalent examination in Physics, Chemistry, Biology/Biotechnology and English with at least 40% marks in all the subjects.
+                                        </li>
+                                        <li class="mt-2">
+                                            Orthopedic Physically Challenged: OPH candidates belonging to General category should have passed 10+2 or equivalent examination in Physics, Chemistry, Biology/Biotechnology and English with at least 45% marks in all the subjects.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="hrline">  
+        </div>
+    </div>
+    <!-- Details Of Exam End -->
+
+    <!-- Form For Enrollment -->
+   
+    <!-- Form For Enrollment End -->
+    <!-- Testimonial -->
+    
+    <!-- Testimonial End -->
+    <!-- Footer -->
+    <footer style="background: black;">
+        <div class="container">
+            <div class="row p-4 mb-0 wow slideInUp" style="text-align: center;">
+                <div class="footer-menu" style="width: 30%;display: inline-block;margin-left: 2vw;">
+                        <ul class="list-unstyled">
+                            <li>JEE [MAIN], JEE [ADVANCED]</li>
+                            <li>BITSAT, CET</li>
+                            <li>NEET, AIIMS, JIPMER</li>
+                            <li>OLYMPIADS</li>
+                            <li>KVPY, IISER</li>
+                            <li>FOUNDATION</li>
+                        </ul>
+                </div>
+                <div class="footer-menu wow slideInUp">
+                        <ul class="list-unstyled">
+                            <li>EVERYTHING ABOUT IITs</li>
+                            <li>TOP MEDICAL COLLEGES</li>
+                            <li>WHAT ARE NITs, IIITs</li>
+                            <li>BITS PILANI</li>
+                        </ul>
+                </div>
+                <div class="footer-menu wow slideInUp">
+                        <ul class="list-unstyled">
+                            <li>ADMISSION ENQUIRY</li>
+                            <li>RESOURCES</li>
+                            <li>CAREERS</li>
+                            <li>SPARK EXCELLENCE</li>
+                        </ul>
+                </div>
+            </div>
+            <div style="border:1px solid white;display: block"></div>
+            <div class="row p-3 wow slideInUp" style="text-align: center">
+                <div id="about" style="display: inline-block;width:48%;color:white;font-size:13px;padding: 1vw;text-align:left;">
+                    <span class="badge badge-primary" style="margin-bottom: 2vh;">About Us</span>
+                    <p>
+                        We are a premiere education institute and one of the fastest growing education institutes in India. We are focused on providing quality education with state-of-the-art infrastructure, like nowhere in India and guidance for the students of XI and XII standard science, aspiring to crack competitive entrance exams like the IIT JEE, BITSAT, NEET, JIPMER, AIIMS etc and Boards
+                    </p>
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <i class="fa fa-facebook"></i>
+                        </li>
+                        <li class="list-inline-item">
+                                <i class="fa fa-twitter"></i>
+                        </li>
+                        <li class="list-inline-item">
+                                <i class="fa fa-pinterest-p"></i>
+                        </li>
+                        <li class="list-inline-item">
+                                <i class="fa fa-linkedin"></i>
+                        </li>
+                        <li class="list-inline-item">
+                                <i class="fa fa-instagram"></i>
+                        </li>
+                        <li class="list-inline-item">
+                                <i class="fa fa-youtube-play"></i>
+                        </li>
+                    </ul>
+                </div>
+                <div id="contact" class="wow slideInUp" style="display: inline-block;width:48%;color:white;font-size:13px;padding: 1vw;text-align:left;">
+                    <span class="badge badge-primary"  style="margin-bottom: 2vh;">Contact Us</span>
+                    <p>
+                        Office: 201, Dighe House, Opp Karnavat Classes, Lohar Ali Lane, Behind Jagdish Book Depot, Near Thane Railway Station, Thane West - 400601, Maharashtra, India.
+                    </p>
+                    <ul class="list-unstyled contactlist">
+                        <li><i class="fa fa-phone"></i> &nbsp;&nbsp;Admissions: +91 9867998388</li>
+                        <li><i class="fa fa-id-card"></i> &nbsp;&nbsp;Appointment: 022 4970 8979</li>
+                        <li><i class="fa fa-handshake-o"></i> &nbsp;&nbsp;HR: +91 8657482467</li>
+                        <li><i class="fa fa-university"></i> &nbsp;&nbsp;Admissions: enquiries@paathshala.world</li>
+                        <li><i class="fa fa-envelope-open"></i> &nbsp;&nbsp;Affiliations and HR: headoffice@paathshala.world</li>
+                        <li><i class="fa fa-envelope-o"></i> &nbsp;&nbsp;Academics: academics@paathshala.world</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="text-light text-center p-4 wow slideInUp">
+                Copyright © 2019 Paathshala Education.  All Rights Reserved.  Designed and Developed by: Paathshala Education
+            </div>
+        </div>
+    </footer>
+</body>
+<!-- Boostrap Js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.9/dist/js/bootstrap-select.min.js"></script>
+<script>
+    $('select').selectpicker();
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+<script>
+$(function () {
+    $(window).scroll(function () { 
+        if ($(window).scrollTop() >= 20) {
+            $(".togglebtn").css("color","black");
+            $('.navbar').removeClass('navbar-dark');
+            $('.navbar').addClass('navbar-light bg-light');
+            $(".navbar").css("margin-top","0vh")
+            $(".navbar-brand img").attr("src","assets/images/logo/ps.png");
+        }
+        else {
+            $(".togglebtn").css("color","white");
+            $('.navbar').removeClass('bg-light');
+            $('.navbar').addClass('navbar-dark');
+            $(".navbar").css("margin-top","3vh")
+            $(".navbar-brand img").attr("src","assets/images/logo/whitelLogo-Paathshala.png");
+        }
+    });
+});
+</script>
+<!-- <script src="assets/js/index.js"></script> -->
+<script src="assets/js/responsive.js"></script>
+<script src="enquiry.js"></script>
+</html>
