@@ -227,3 +227,14 @@ ul {
     color:green;
 }
 /* KVPY-IISER page style end */
+/* contact us page */
+
+#contact-us-cards .card{
+    float:left;
+    text-align: center;
+    margin-left: 2vw;
+    width: 30%;
+}
+#contact-us-cards{
+    overflow: auto;
+}
