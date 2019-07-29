@@ -227,6 +227,7 @@ ul {
     color:green;
 }
 /* KVPY-IISER page style end */
+
 /* contact us page */
 
 #contact-us-cards .card{
@@ -237,4 +238,13 @@ ul {
 }
 #contact-us-cards{
     overflow: auto;
+}
+/* contact us page end */
+
+/* testimonial page style */
+.blue-gradient {
+    background: linear-gradient(to left,#003153,#301728FF);
+}
+.blue-gradient-rev{
+    background: linear-gradient(to right,#003153,#301728FF);
 }
