@@ -248,3 +248,9 @@ ul {
 .blue-gradient-rev{
     background: linear-gradient(to right,#003153,#301728FF);
 }
+/* testimonial page style end */
+
+/* Result page style */
+#result .card-header{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+}
