@@ -141,6 +141,19 @@
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             Exams
                         </a>
+                        <style>
+                             .dropdown > .dropdown-menu:before
+                            {
+                                content: "";
+                                position: relative;
+                                /* bottom: -45px; */
+                                top:-45px;
+                                right: -14%;
+                                border: 15px solid transparent;
+                                border-bottom-color: white ;
+                            }
+                            .dropdown-menu{margin-top: 1vh;}
+                        </style>
                         <div class="dropdown-menu animated fadeIn" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item hvr-forward" href="jee-exam.html">JEE MAIN & ADVANCED</a>
                             <a class="dropdown-item hvr-forward" href="bitsat-cet.html">BITSAT, CET</a>
