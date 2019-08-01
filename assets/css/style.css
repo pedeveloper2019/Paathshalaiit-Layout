@@ -35,8 +35,11 @@ h1,h2,h3,h4,h5,h6{
     text-transform: uppercase;
 }
 .dropdown-item:hover{
+    color:black !important;
+}
+.dropdown-item:hover{
     background:black;
-    color:white;
+    color:white !important;
 }
 /* Banner image style */
 .banner-images{
@@ -247,4 +250,27 @@ ul {
 }
 .blue-gradient-rev{
     background: linear-gradient(to right,#003153,#301728FF);
+}
+/* arrow before dropdown-menu */
+.dropdown > .dropdown-menu:before
+{
+    content: "";
+    position: relative;
+    /* bottom: -45px; */
+    top:-45px;
+    right: -14%;
+    border: 15px solid transparent;
+    border-bottom-color: white ;
+}
+.dropdown-menu{margin-top: 1vh;}
+
+/* arrow after tabs of .nav-tabs */
+nav > div a.nav-item.nav-link.active:after
+{
+ content: "";
+ position: relative;
+ bottom: -45px;
+ left: -14%;
+ border: 15px solid transparent;
+ border-top-color: white ;
 }
